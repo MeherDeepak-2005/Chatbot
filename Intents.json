@@ -1,0 +1,38 @@
+{"intents":[
+    {"tag": "greeting",
+     "patterns": ["hi there","how are you","is anyone there?","hey","hola","hello","good day"],
+     "responses": ["hello,thanks for asking","good to see you again","hi there,how can i help you"],
+     "context":[""]
+    },
+    {"tag": "what can you do",
+        "patterns": ["What do you do","How can you help me","show me what can you do"],
+        "responses": ["I am an incomplete chatbot who cant dp anything which is created by DEEPAK"],
+        "context":[""]
+    },
+    {"tag": "goodbye",
+        "patterns": ["bye","see you later","Goodbye","Nice chatiing with you,bye","till next time"],
+        "responses": ["See you!","Have a nice day","Bye! come back soon."],
+        "context":[""]
+    },
+    {"tag": "thanks",
+        "patterns": ["thanks","thank you","Thats helpful","awesome, thanks","thanks for helping me"],
+        "responses": ["happy to helo","anytime","pleasure"],
+        "context":[""]
+    },
+    {"tag": "noanswer",
+        "patterns": [],
+        "responses": ["sorry i cant understand you","please give me more info","not sure in understant"],
+        "context":[""]
+    },
+    {"tag": "About me",
+        "patterns": ["what are your hobbies","what do you love to do","What is your passion"],
+        "responses": ["I love to play a guitar and code","I love cars, coding and playing guitar"],
+        "context":[""]
+    },
+    {"tag":"who are you",
+        "patterns":["who are you","what's your name"],
+        "responses":["I am DEEPAK"],
+        "context":[""]
+      }
+
+]}
